@@ -1,7 +1,7 @@
 # Reid_reserach
                                             Reid_Algorithm optimization
 ### Summary:
-	Person re-identification has become a research hotspot in recent years, with 36 CVPR articles in 2018. My code is mainly for the construction of pedestrian recognition data set. Another project is the implementation of modified baseline and MGN in different 	frameworks. Because all the video sequences collected from the camera are video sequences, our idea is to parse the video data into 	pictures, seek similarity between pictures, and integrate the data into Makert1501 format.
+	Person re-identification has become a research hotspot in recent years, with 36 CVPR articles in 2018. My code is mainly for the construction of pedestrian recognition data set. Another project is the implementation of modified baseline and MGN in different frameworks. Because all the video sequences collected from the camera are video sequences, our idea is to parse the video data into pictures, seek similarity between pictures, and integrate the data into Makert1501 format.
 ### Use process:
 	Reading the code of kgraph_main1.py carefully, this project introduces the concept of ANN, which transforms the problem of finding similarity N N of high-dimensional image vectors into ANN problem.（ANN：approximate nearest neighborhood），By modifying the path of cam1, CAM2 and candidate paths, as well as loading obj method and saving obj method, we can adapt to the format of our datasets.
 ### Detailed introduction:
@@ -13,6 +13,8 @@ Kgraph Library：https://github.com/aaalgo/kgraph
 This code mainly focuses on data set cleaning and production, so several scripts have been written for use：
 filter_image.py：Screening for non-conforming image size. For example, images with inconsistent width and height can be screened out.
 filter_image.sh:Double-click the shell script that filters the data set directly.
+transform_fileName.py：The data of the video sequence is sorted into the same day, but labeled differently.
+To be continued......
 		
 
 
