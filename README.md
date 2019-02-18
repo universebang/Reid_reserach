@@ -1,4 +1,4 @@
-# Reid_reserach
+# Reid_research
                                             Reid_Algorithm optimization
 ### Summary:
 	Person re-identification has become a research hotspot in recent years, with 36 CVPR articles in 2018. My code is mainly for the construction of pedestrian recognition data set. Another project is the implementation of modified baseline and MGN in different frameworks. Because all the video sequences collected from the camera are video sequences, our idea is to parse the video data into pictures, seek similarity between pictures, and integrate the data into Makert1501 format.
